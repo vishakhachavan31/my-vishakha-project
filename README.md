@@ -33,3 +33,22 @@ git add description.txt
 git commit -m "Add description.txt file"
 git push origin main
 code .
+
+
+git clone https://github.com/your-username/repository-name.git
+cd repository-name
+touch additional-doc.md
+touch sample-code.js
+code additional-doc.md sample-code.js
+# Additional Documentation
+
+This file contains extra details about the project and its future plans.
+// Sample JavaScript Code
+console.log('Hello, GitHub!');
+
+
+git status
+git add additional-doc.md sample-code.js
+git commit -m "Add additional documentation and sample JavaScript file"
+git push origin main
+
