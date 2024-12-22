@@ -20,3 +20,16 @@ A simple project to showcase my skills and ideas. This project serves as a found
    git clone https://github.com/your-username/my-personal-project.git
 cd my-personal-project
 code .
+
+---
+
+## Step 4: Add an Additional File (e.g., `description.txt`)
+
+1. Create a file named `description.txt`:
+   ```bash
+   touch description.txt
+This is my first personal project on GitHub. It will be a portfolio showcasing my skills and projects.
+git add description.txt
+git commit -m "Add description.txt file"
+git push origin main
+code .
